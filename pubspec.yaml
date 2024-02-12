@@ -1,0 +1,30 @@
+name: carely_v2
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.16.0
+  google_fonts:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.9.2
+  firebase_storage: ^11.2.7
+  image_picker: ^1.0.4
+  uuid: ^4.1.0
+  flash: ^3.0.5+1
+  lottie: ^2.6.0
+  quickalert: ^1.0.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
